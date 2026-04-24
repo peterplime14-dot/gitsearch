@@ -12,13 +12,13 @@ Lightweight and dependency-friendly
 
 ## ⚙️ Requirements
 
-bash 
+· bash 
 
-curl
+· curl
 
-python3
+· python3
 
-git (optional, for cloning repositories)
+· git (optional, for cloning repositories)
 
 Core utilities: sed, tail, wc, cut
 
@@ -28,11 +28,11 @@ Download the script:
 
 git clone repo-url
  
- cd repo-directory
+· cd repo-directory
 
- chmod +x gitsearch.sh
+· chmod +x gitsearch.sh
 
- ./gitsearch.sh
+· ./gitsearch.sh
 
 ## 🚀 Usage
 
@@ -41,9 +41,9 @@ git clone repo-url
 
 ## 🎛️ Flags
 
- -u, --user → search for users instead of repositories
+· -u, --user → search for users instead of repositories
 
- -n, --num → number of results to display (default: 15)
+· -n, --num → number of results to display (default: 15)
 
 ## 🧠 Behavior
 
@@ -56,12 +56,12 @@ Results are fetched from the GitHub API and parsed using Python
 
  ./gitsearch.sh machine learning python
 
-Search repositories about machine learning in Python.
+· Search repositories about machine learning in Python.
 
  ./gitsearch.sh -u john
 
-Search for GitHub users named “john”.
+· Search for GitHub users named “john”.
 
  ./gitsearch.sh -n 10 "data structures" cpp
  
-Show 10 C++ repositories about data structures.
+· Show 10 C++ repositories about data structures.
