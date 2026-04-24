@@ -14,28 +14,30 @@ bash
 curl
 python3
 git (optional, for cloning repositories)
+
 Core utilities: sed, tail, wc, cut
 
 ## 📦 Installation
 
 Download the script:
 
-git clone <repo-url>
-cd <repo-directory>
+git clone repo-url
+ cd repo-directory
 
-Make it executa  ble:
+Make it executable:
 
-chmod +x gitsearch.sh
+ chmod +x gitsearch.sh
 
 ## 🚀 Usage
+
 ./gitsearch.sh [FLAGS] [search_term] [language]
 
 
 ## 🎛️ Flags
 
--u, --user → search for users instead of repositories
+ -u, --user → search for users instead of repositories
 
--n, --num → number of results to display (default: 15)
+ -n, --num → number of results to display (default: 15)
 
 ## 🧠 Behavior
 
@@ -45,14 +47,14 @@ Multi-word queries are automatically URL-encoded
 Results are fetched from the GitHub API and parsed using Python
 
 ## 💡 Examples
-./gitsearch.sh machine learning python
+ ./gitsearch.sh machine learning python
 
 Search repositories about machine learning in Python.
 
-./gitsearch.sh -u john
+ ./gitsearch.sh -u john
 
 Search for GitHub users named “john”.
 
-./gitsearch.sh -n 10 "data structures" cpp
+ ./gitsearch.sh -n 10 "data structures" cpp
  
 Show 10 C++ repositories about data structures.
