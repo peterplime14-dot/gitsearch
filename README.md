@@ -12,9 +12,12 @@ Lightweight and dependency-friendly
 
 ## ⚙️ Requirements
 
-bash
+bash 
+
 curl
+
 python3
+
 git (optional, for cloning repositories)
 
 Core utilities: sed, tail, wc, cut
