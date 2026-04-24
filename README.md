@@ -3,6 +3,7 @@
 A CLI tool for searching GitHub repositories and users using parallel requests and Python-based JSON parsing.
 
 ## ✨ Features
+
 Search GitHub repositories or users via the GitHub API
 Optional programming language filtering
 Configurable number of results
@@ -10,6 +11,7 @@ Fast parallel fetching
 Lightweight and dependency-friendly
 
 ## ⚙️ Requirements
+
 bash
 curl
 python3
@@ -22,11 +24,12 @@ Core utilities: sed, tail, wc, cut
 Download the script:
 
 git clone repo-url
+ 
  cd repo-directory
 
-Make it executable:
-
  chmod +x gitsearch.sh
+
+ ./gitsearch.sh
 
 ## 🚀 Usage
 
@@ -47,6 +50,7 @@ Multi-word queries are automatically URL-encoded
 Results are fetched from the GitHub API and parsed using Python
 
 ## 💡 Examples
+
  ./gitsearch.sh machine learning python
 
 Search repositories about machine learning in Python.
