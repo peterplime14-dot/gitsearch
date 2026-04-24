@@ -26,7 +26,7 @@ Core utilities: sed, tail, wc, cut
 
 Download the script:
 
-git clone repo-url
+git clone https://github.com/peterplime14-dot/gitsearch
  
 · cd repo-directory
 
