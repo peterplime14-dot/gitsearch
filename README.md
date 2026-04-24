@@ -30,9 +30,15 @@ git clone repo-url
  
 · cd repo-directory
 
-· chmod +x gitsearch.sh
+· chmod +x gitsearch
 
-· ./gitsearch.sh
+· gitsearch
+
+Option 2
+
+· chmod +x gitsearch
+
+· mv gitsearch ~/.local/bin/
 
 ## 🚀 Usage
 
