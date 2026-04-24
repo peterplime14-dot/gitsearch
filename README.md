@@ -34,6 +34,7 @@ chmod +x gitsearch.sh
 ## 🎛️ Flags
 
 -u, --user → search for users instead of repositories
+
 -n, --num → number of results to display (default: 15)
 
 ## 🧠 Behavior
