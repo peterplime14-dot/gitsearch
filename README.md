@@ -60,14 +60,14 @@ Results are fetched from the GitHub API and parsed using Python
 
 ## 💡 Examples
 
- ./gitsearch.sh machine learning python
+  gitsearch machine learning python
 
 · Search repositories about machine learning in Python.
 
- ./gitsearch.sh -u john
+  gitsearch -u john
 
 · Search for GitHub users named “john”.
 
- ./gitsearch.sh -n 10 "data structures" cpp
+  gitsearch -n 10 "data structures" cpp
  
 · Show 10 C++ repositories about data structures.
